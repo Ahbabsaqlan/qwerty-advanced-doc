@@ -316,24 +316,32 @@ p{
     .contact{
         padding-bottom: 22px;
     }
+    .subscribe{
+        width: 300px;
+    }
     .subscribe-button{
         margin-left: 0%;
         width: 40%;
         font-size: 12px;
         height: 25px;
         margin-top: 0%;
+        min-width: 70px;
     }
     .subscribe-input{
         font-size: 15px;
         height: 25px;
+        max-width: 155px;
     }
     .subscribe-note{
-        font-size: 22px;
+        font-size: 100%;
         margin-right: 70px;
         margin-top: 0%;
     }
+    .bottom-footer{
+        justify-items: center;
+    }
 }
-@media(min-width:780px){
+@media(min-width:799px){
     .banner{
         height: 480px;
     }
@@ -362,7 +370,7 @@ p{
     .navbar{
         grid-template-columns: 1.5fr 3fr;
         justify-items: center;
-        height: 40px;
+        height: 50px;
     }
     .logoimg{
         padding-top: 1.5px;
@@ -398,15 +406,17 @@ p{
     }
     .subscribe{
         margin-top: 22px;
+        width: 400px;
     }
     .subscribe-input{
         width: 200px;
-        margin-left: 195px;
+        margin-left: 35%;
     }
     .subscribe-button{
         width: 40%;
         margin-left: 15px;
         font-size: 60%;
+        max-width: 60px;
     }
     .subscribe-button:hover{
         transform: translateY(3px);
@@ -460,7 +470,7 @@ p{
         height: 45px;
     }
     .subscribe-input{
-        margin-left: 380px;
+        margin-left: 40%;
     }
     .subscribe-note{
         margin-right: 300px;
@@ -479,6 +489,54 @@ p{
         font-size: 12px;
     }
 }
-@media(min-width:1441px){
-
+@media(min-width:1545px){
+    .banner{
+        margin-top: 40px;
+        height: 1100px;
+    }
+    #aboutus-text1{
+        font-size: 80px;
+    }
+    #aboutus-text2{
+        font-size: 65px;
+    }
+    #aboutus-text3{
+        font-size: 40px;
+    }
+    #sublink{
+        height: 270px;
+    }
+    .subjectbutton{
+        height: 65px;
+        font-size: 30px;
+    }
+    .subscribe{
+        margin-left: 400px;
+        width: 700px;
+    }
+    .subscribe-button{
+        max-width: 120px;
+        height: auto;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .subscribe-input{
+        max-width: 300px;
+        height: 45px;
+        font-size: 20px;
+        margin-left: 190px;
+    }
+    .contactlogo{
+        width: 80px;
+        height: auto;
+    }
+    .subscribe-note{
+        font-size: 40px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .askque-link{
+        width: 235px;
+        font-size: 40px;
+    }
 }
