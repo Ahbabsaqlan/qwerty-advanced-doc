@@ -87,7 +87,7 @@ body{
     margin: auto;
     background-color: whitesmoke;
     background-image: url(/SAVE_20210511_223431.jpg);
-    height: 400px;
+    height: 450px;
     width: 90%;
     border-radius: 5px;
     margin-top: 15px;
@@ -254,7 +254,7 @@ p{
         width: 100px;
     }
     .banner{
-        height: 405px;
+        height: 450px;
     }
     .askque-link{
         font-size: 80%;
@@ -333,7 +333,7 @@ p{
         margin-top: 0%;
     }
 }
-@media(min-width:769px){
+@media(min-width:780px){
     .banner{
         height: 480px;
     }
@@ -404,7 +404,9 @@ p{
         margin-left: 195px;
     }
     .subscribe-button{
-        width: 70px;
+        width: 40%;
+        margin-left: 15px;
+        font-size: 60%;
     }
     .subscribe-button:hover{
         transform: translateY(3px);
