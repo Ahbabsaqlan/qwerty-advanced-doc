@@ -11,7 +11,7 @@ body{
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.432);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 30px 15px 0px 0px;
+    padding: 30px 20px 0px;
     color: #222527;
 }
 #aboutus-text2{
@@ -260,7 +260,7 @@ p{
     }
     #aboutus-text1{
         font-size: 35px;
-        padding-left: 15px;
+        padding-left: 20px;
     }
     #aboutus-text2{
         font-size: 27px;
